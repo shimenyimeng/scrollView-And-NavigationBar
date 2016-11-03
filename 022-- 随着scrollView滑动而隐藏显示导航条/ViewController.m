@@ -86,6 +86,11 @@ NSString *const reuseIdentifier = @"reuseIdentifier";
         navigationBarY = 0;
     }
     
+    // 如果NavigationBarY超过0，就设置为0
+    if (navigationBarY > 0) {
+        navigationBarY = 0;
+    }
+    
 //    GXFLog(@"%f", navigationBarY);
     // 计算alpha
     CGFloat alpha =1 - (- navigationBarY) / 64;
