@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GXFNavigationBar.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -17,6 +18,8 @@ NSString *const reuseIdentifier = @"reuseIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"555555";
     
     // 添加tableView
     UITableView *tableView = [[UITableView alloc] init];
@@ -48,4 +51,50 @@ NSString *const reuseIdentifier = @"reuseIdentifier";
     
     return cell;
 }
+
+// UITableViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+//    GXFLog(@"%f", scrollView.contentOffset.y);
+    CGFloat y = scrollView.contentOffset.y;
+    static CGFloat _y = 64;
+    static CGFloat navigationBarY = 0;
+    
+    if (_y > y) {
+        
+        GXFLog(@"上");
+        
+        if (navigationBarY < 0) {
+            navigationBarY += _y - y;
+            
+        }
+        _y = y;
+    
+    } else if (_y < y) {
+        
+        GXFLog(@"下");
+        
+        if (navigationBarY > - 64) {
+            navigationBarY -= y - (_y);
+            
+        }
+        _y = y;
+    }
+    
+    // 如果滚动到顶部，让navigationBarY = 0；
+    if (y <= -64) {
+        navigationBarY = 0;
+    }
+    
+//    GXFLog(@"%f", navigationBarY);
+    // 计算alpha
+    CGFloat alpha =1 - (- navigationBarY) / 64;
+    
+    GXFNavigationBar *navigationBar = (GXFNavigationBar *)self.navigationController.navigationBar;
+    
+    [navigationBar setY:navigationBarY];
+    [navigationBar setNavigationVarAlpha:alpha];
+    
+}
+
 @end

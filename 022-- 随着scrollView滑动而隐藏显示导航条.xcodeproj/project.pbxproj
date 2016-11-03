@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043683A61DCAC8B900BE83FC /* GXFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 043683A51DCAC8B900BE83FC /* GXFNavigationBar.m */; };
 		046F0A291DC830ED00DACB64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F0A281DC830ED00DACB64 /* main.m */; };
 		046F0A2C1DC830ED00DACB64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F0A2B1DC830ED00DACB64 /* AppDelegate.m */; };
 		046F0A2F1DC830ED00DACB64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F0A2E1DC830ED00DACB64 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		043683A31DCABDDE00BE83FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		043683A41DCAC8B900BE83FC /* GXFNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFNavigationBar.h; sourceTree = "<group>"; };
+		043683A51DCAC8B900BE83FC /* GXFNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFNavigationBar.m; sourceTree = "<group>"; };
 		046F0A241DC830ED00DACB64 /* 022-- 随着scrollView滑动而隐藏显示导航条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "022-- 随着scrollView滑动而隐藏显示导航条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046F0A281DC830ED00DACB64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		046F0A2A1DC830ED00DACB64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 			children = (
 				046F0A2A1DC830ED00DACB64 /* AppDelegate.h */,
 				046F0A2B1DC830ED00DACB64 /* AppDelegate.m */,
+				043683A41DCAC8B900BE83FC /* GXFNavigationBar.h */,
+				043683A51DCAC8B900BE83FC /* GXFNavigationBar.m */,
 				046F0A2D1DC830ED00DACB64 /* ViewController.h */,
 				046F0A2E1DC830ED00DACB64 /* ViewController.m */,
 				043683A31DCABDDE00BE83FC /* PrefixHeader.pch */,
@@ -196,6 +201,7 @@
 				TargetAttributes = {
 					046F0A231DC830ED00DACB64 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YF5P95RLXZ;
 						ProvisioningStyle = Automatic;
 					};
 					046F0A3C1DC830ED00DACB64 = {
@@ -329,6 +335,7 @@
 				046F0A2F1DC830ED00DACB64 /* ViewController.m in Sources */,
 				046F0A2C1DC830ED00DACB64 /* AppDelegate.m in Sources */,
 				046F0A291DC830ED00DACB64 /* main.m in Sources */,
+				043683A61DCAC8B900BE83FC /* GXFNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +462,7 @@
 			baseConfigurationReference = B62002B59C545B03963A6090 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF5P95RLXZ;
 				GCC_PREFIX_HEADER = "/Users/mac/Desktop/练习/022-- 随着scrollView滑动而隐藏显示navigationBar/022-- 随着scrollView滑动而隐藏显示导航条/PrefixHeader.pch";
 				INFOPLIST_FILE = "022-- 随着scrollView滑动而隐藏显示导航条/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -468,6 +476,7 @@
 			baseConfigurationReference = DB9B81A9E3056CE4AED3684C /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF5P95RLXZ;
 				GCC_PREFIX_HEADER = "/Users/mac/Desktop/练习/022-- 随着scrollView滑动而隐藏显示navigationBar/022-- 随着scrollView滑动而隐藏显示导航条/PrefixHeader.pch";
 				INFOPLIST_FILE = "022-- 随着scrollView滑动而隐藏显示导航条/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

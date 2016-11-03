@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "GXFNavigationBar.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:vc];
+    [navVc setValue:[[GXFNavigationBar alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64)] forKey:@"navigationBar"];
     self.window.rootViewController = navVc;
     [self.window makeKeyAndVisible];
     
