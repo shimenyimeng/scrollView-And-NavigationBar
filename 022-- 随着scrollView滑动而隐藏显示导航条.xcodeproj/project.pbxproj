@@ -14,6 +14,8 @@
 		046F0A341DC830ED00DACB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F0A331DC830ED00DACB64 /* Assets.xcassets */; };
 		046F0A371DC830ED00DACB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F0A351DC830ED00DACB64 /* LaunchScreen.storyboard */; };
 		046F0A421DC830ED00DACB64 /* _22_____scrollView__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F0A411DC830ED00DACB64 /* _22_____scrollView__________UITests.m */; };
+		542A4F0772D8D5E0AFEC2DA7 /* libPods-022-- 随着scrollView滑动而隐藏显示导航条.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C98F07A681CF2D601922289 /* libPods-022-- 随着scrollView滑动而隐藏显示导航条.a */; };
+		699D82667B3F702CF3F9489C /* libPods-022-- 随着scrollView滑动而隐藏显示导航条UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFC1C6CE9483962D910EC8C /* libPods-022-- 随着scrollView滑动而隐藏显示导航条UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043683A31DCABDDE00BE83FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		046F0A241DC830ED00DACB64 /* 022-- 随着scrollView滑动而隐藏显示导航条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "022-- 随着scrollView滑动而隐藏显示导航条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046F0A281DC830ED00DACB64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		046F0A2A1DC830ED00DACB64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +43,12 @@
 		046F0A3D1DC830ED00DACB64 /* 022-- 随着scrollView滑动而隐藏显示导航条UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "022-- 随着scrollView滑动而隐藏显示导航条UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046F0A411DC830ED00DACB64 /* _22_____scrollView__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_22_____scrollView__________UITests.m"; sourceTree = "<group>"; };
 		046F0A431DC830ED00DACB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C98F07A681CF2D601922289 /* libPods-022-- 随着scrollView滑动而隐藏显示导航条.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-022-- 随着scrollView滑动而隐藏显示导航条.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62002B59C545B03963A6090 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-022-- 随着scrollView滑动而隐藏显示导航条.debug.xcconfig"; path = "Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条/Pods-022-- 随着scrollView滑动而隐藏显示导航条.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFC1C6CE9483962D910EC8C /* libPods-022-- 随着scrollView滑动而隐藏显示导航条UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-022-- 随着scrollView滑动而隐藏显示导航条UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8A117D3A1E66B81D2B6E1F /* Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests/Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB9B81A9E3056CE4AED3684C /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-022-- 随着scrollView滑动而隐藏显示导航条.release.xcconfig"; path = "Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条/Pods-022-- 随着scrollView滑动而隐藏显示导航条.release.xcconfig"; sourceTree = "<group>"; };
+		E2B8094CCFDA028E98C67EC5 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests/Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542A4F0772D8D5E0AFEC2DA7 /* libPods-022-- 随着scrollView滑动而隐藏显示导航条.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699D82667B3F702CF3F9489C /* libPods-022-- 随着scrollView滑动而隐藏显示导航条UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,8 @@
 				046F0A261DC830ED00DACB64 /* 022-- 随着scrollView滑动而隐藏显示导航条 */,
 				046F0A401DC830ED00DACB64 /* 022-- 随着scrollView滑动而隐藏显示导航条UITests */,
 				046F0A251DC830ED00DACB64 /* Products */,
+				D2F7C8E35FD01ACE036A20F2 /* Pods */,
+				B9088314AEC0448E67A92252 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +98,7 @@
 				046F0A2B1DC830ED00DACB64 /* AppDelegate.m */,
 				046F0A2D1DC830ED00DACB64 /* ViewController.h */,
 				046F0A2E1DC830ED00DACB64 /* ViewController.m */,
+				043683A31DCABDDE00BE83FC /* PrefixHeader.pch */,
 				046F0A301DC830ED00DACB64 /* Main.storyboard */,
 				046F0A331DC830ED00DACB64 /* Assets.xcassets */,
 				046F0A351DC830ED00DACB64 /* LaunchScreen.storyboard */,
@@ -111,6 +125,26 @@
 			path = "022-- 随着scrollView滑动而隐藏显示导航条UITests";
 			sourceTree = "<group>";
 		};
+		B9088314AEC0448E67A92252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C98F07A681CF2D601922289 /* libPods-022-- 随着scrollView滑动而隐藏显示导航条.a */,
+				BAFC1C6CE9483962D910EC8C /* libPods-022-- 随着scrollView滑动而隐藏显示导航条UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F7C8E35FD01ACE036A20F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B62002B59C545B03963A6090 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.debug.xcconfig */,
+				DB9B81A9E3056CE4AED3684C /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.release.xcconfig */,
+				CC8A117D3A1E66B81D2B6E1F /* Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.debug.xcconfig */,
+				E2B8094CCFDA028E98C67EC5 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046F0A461DC830ED00DACB64 /* Build configuration list for PBXNativeTarget "022-- 随着scrollView滑动而隐藏显示导航条" */;
 			buildPhases = (
+				48B66469C8CD0AB37DA1D28E /* [CP] Check Pods Manifest.lock */,
 				046F0A201DC830ED00DACB64 /* Sources */,
 				046F0A211DC830ED00DACB64 /* Frameworks */,
 				046F0A221DC830ED00DACB64 /* Resources */,
+				DD8A7C41B827A14A999ABD25 /* [CP] Embed Pods Frameworks */,
+				14B40BE9DE0B3112629C65EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046F0A491DC830ED00DACB64 /* Build configuration list for PBXNativeTarget "022-- 随着scrollView滑动而隐藏显示导航条UITests" */;
 			buildPhases = (
+				84038B266A6CF4B551B0FFA1 /* [CP] Check Pods Manifest.lock */,
 				046F0A391DC830ED00DACB64 /* Sources */,
 				046F0A3A1DC830ED00DACB64 /* Frameworks */,
 				046F0A3B1DC830ED00DACB64 /* Resources */,
+				45F0FB8AAB159C3541AEC503 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +246,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B40BE9DE0B3112629C65EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条/Pods-022-- 随着scrollView滑动而隐藏显示导航条-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F0FB8AAB159C3541AEC503 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests/Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B66469C8CD0AB37DA1D28E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84038B266A6CF4B551B0FFA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8A7C41B827A14A999ABD25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-022-- 随着scrollView滑动而隐藏显示导航条/Pods-022-- 随着scrollView滑动而隐藏显示导航条-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		046F0A201DC830ED00DACB64 /* Sources */ = {
@@ -347,8 +464,10 @@
 		};
 		046F0A471DC830ED00DACB64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62002B59C545B03963A6090 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/练习/022-- 随着scrollView滑动而隐藏显示navigationBar/022-- 随着scrollView滑动而隐藏显示导航条/PrefixHeader.pch";
 				INFOPLIST_FILE = "022-- 随着scrollView滑动而隐藏显示导航条/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guxuefei.-22-----scrollView----------";
@@ -358,8 +477,10 @@
 		};
 		046F0A481DC830ED00DACB64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9B81A9E3056CE4AED3684C /* Pods-022-- 随着scrollView滑动而隐藏显示导航条.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/练习/022-- 随着scrollView滑动而隐藏显示navigationBar/022-- 随着scrollView滑动而隐藏显示导航条/PrefixHeader.pch";
 				INFOPLIST_FILE = "022-- 随着scrollView滑动而隐藏显示导航条/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guxuefei.-22-----scrollView----------";
@@ -369,6 +490,7 @@
 		};
 		046F0A4A1DC830ED00DACB64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8A117D3A1E66B81D2B6E1F /* Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "022-- 随着scrollView滑动而隐藏显示导航条UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -380,6 +502,7 @@
 		};
 		046F0A4B1DC830ED00DACB64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B8094CCFDA028E98C67EC5 /* Pods-022-- 随着scrollView滑动而隐藏显示导航条UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "022-- 随着scrollView滑动而隐藏显示导航条UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -408,6 +531,7 @@
 				046F0A481DC830ED00DACB64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046F0A491DC830ED00DACB64 /* Build configuration list for PBXNativeTarget "022-- 随着scrollView滑动而隐藏显示导航条UITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +540,7 @@
 				046F0A4B1DC830ED00DACB64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
