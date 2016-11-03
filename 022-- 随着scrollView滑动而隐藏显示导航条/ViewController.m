@@ -65,7 +65,7 @@ NSString *const reuseIdentifier = @"reuseIdentifier";
         GXFLog(@"上");
         
         if (navigationBarY < 0) {
-            navigationBarY += _y - y;
+            navigationBarY += (_y - y) * 0.5;
             
         }
         _y = y;
@@ -75,7 +75,7 @@ NSString *const reuseIdentifier = @"reuseIdentifier";
         GXFLog(@"下");
         
         if (navigationBarY > - 64) {
-            navigationBarY -= y - (_y);
+            navigationBarY -= (y - (_y)) * 0.5;
             
         }
         _y = y;

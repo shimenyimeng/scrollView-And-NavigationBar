@@ -45,14 +45,14 @@
     
     [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
-        if ([obj isKindOfClass:NSClassFromString(@"UINavigationIteView")]) {
+        if ([obj isKindOfClass:NSClassFromString(@"UINavigationItemView")]) {
             
             obj.alpha = alpha;
             *stop = YES;
         }
     }];
     
-    UIView *titleView = [self valueForKeyPath:@"titleView"];
+    UIView *titleView = [self valueForKeyPath:@"_titleView"];
     titleView.alpha = alpha;
 }
 
