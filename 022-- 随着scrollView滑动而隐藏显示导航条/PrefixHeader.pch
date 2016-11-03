@@ -9,6 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import <Masonry.h>
+
 /*****pch文件日志输出功能******/
 #ifdef __OBJC__
 
